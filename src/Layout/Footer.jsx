@@ -10,11 +10,10 @@ const footerNavigation = {
     },
   ],
   links: [
-    { name: 'Políticas de privacidad', to: '#' },
-    { name: 'Políticas de calidad', to: '#' },
-    { name: 'Preguntas frecuentes', to: '#' },
-    { name: 'Matrícula', to: '#' },
-    { name: 'Libro de reclamaciones', to: '#' },
+    { name: 'Políticas de privacidad', to: 'politicas-de-privacidad' },
+    { name: 'Políticas de calidad', to: 'politicas-de-calidad' },
+    { name: 'Preguntas frecuentes', to: 'preguntas-frecuentes' },
+    { name: 'Libro de reclamaciones', to: 'libro-de-reclamaciones' },
   ],
   social: [
     {
