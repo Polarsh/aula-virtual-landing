@@ -1,5 +1,5 @@
-import CoursesSliderComponent from '../../components/CoursesSlider'
-import { useApp } from '../../context/AppContext'
+import CoursesSliderComponent from '../components/CoursesSlider'
+import { useApp } from '../context/AppContext'
 
 export default function HomePage() {
   const { servicesList, testimonialsList, statsList } = useApp()

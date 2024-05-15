@@ -1,6 +1,6 @@
-import BackgroundComponent from '../../components/Background'
-import LogoComponent from '../../components/Logo'
-import { useApp } from '../../context/AppContext'
+import BackgroundComponent from '../components/Background'
+import LogoComponent from '../components/Logo'
+import { useApp } from '../context/AppContext'
 
 const values = [
   {

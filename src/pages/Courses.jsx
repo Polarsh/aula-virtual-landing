@@ -1,5 +1,6 @@
-import BackgroundComponent from '../../components/Background'
-import { useApp } from '../../context/AppContext'
+import { Link } from 'react-router-dom'
+import BackgroundComponent from '../components/Background'
+import { useApp } from '../context/AppContext'
 
 export default function CoursesPage() {
   const { coursesList } = useApp()
@@ -17,25 +18,21 @@ export default function CoursesPage() {
         <div className='mt-16 sm:mt-10'>
           {/* Título */}
           <div className='mx-auto lg:mx-0'>
-            <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-              Nuestros cursos
-            </h2>
             <p className='mt-6 text-lg leading-8 text-gray-600'>
-              Magna pariatur elit Lorem dolore magna laboris quis cupidatat non
-              culpa elit do deserunt irure. Esse magna laboris do ipsum minim
-              culpa. Ex dolore reprehenderit dolor ullamco enim adipisicing
-              consequat sint sit nulla. Tempor est Lorem do in commodo minim
-              cillum enim do. Non sint enim deserunt ex sit sit consectetur
-              magna.
+              Explora nuestra amplia gama de cursos diseñados para estudiantes y
+              profesionales de la salud. Desde fundamentos básicos hasta
+              especializaciones avanzadas, nuestros cursos están diseñados para
+              proporcionarte las habilidades y el conocimiento necesarios para
+              destacar en tu carrera médica.
             </p>
           </div>
           {/* Contenido */}
           <div className='mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-16 gap-x-8 gap-y-16 text-base leading-7 lg:mx-0 lg:max-w-none'>
             {coursesList.map((course, index) => (
-              <div
+              <Link
                 key={course.name}
-                className='group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white'
-                style={{ cursor: 'pointer' }}>
+                to={course.to}
+                className='group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white'>
                 <div className=' bg-gray-200 sm:aspect-none group-hover:opacity-75 sm:h-56'>
                   <img
                     src={course.imagePath}
@@ -52,7 +49,7 @@ export default function CoursesPage() {
                   </h3>
                   <p className='text-sm text-gray-500'>{course.description}</p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
