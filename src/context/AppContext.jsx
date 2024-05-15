@@ -180,6 +180,82 @@ const coursesList = [
   },
 ]
 
+const partnershipsList = [
+  {
+    name: 'Convenio 1',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Convenio 1',
+  },
+  {
+    name: 'Convenio 2',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Convenio 2',
+  },
+  {
+    name: 'Convenio 3',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Convenio 3',
+  },
+  {
+    name: 'Convenio 4',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Convenio 4',
+  },
+  {
+    name: 'Convenio 5',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Convenio 5',
+  },
+]
+
+const recognitionsList = [
+  {
+    name: 'Reconocimiento 1',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Reconocimiento 1',
+  },
+  {
+    name: 'Reconocimiento 2',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Reconocimiento 2',
+  },
+  {
+    name: 'Reconocimiento 3',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Reconocimiento 3',
+  },
+  {
+    name: 'Reconocimiento 4',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Reconocimiento 4',
+  },
+  {
+    name: 'Reconocimiento 5',
+    description: 'description',
+    icon: UserGroupIcon,
+    imagePath: 'https://i.stack.imgur.com/5ykYD.png',
+    imageAlt: 'Reconocimiento 5',
+  },
+]
+
 const objetivesList = [
   {
     name: 'Objetivo 1',
@@ -274,6 +350,8 @@ export function AppProvider({ children }) {
         setLoading,
         servicesList,
         coursesList,
+        partnershipsList,
+        recognitionsList,
         objetivesList,
         testimonialsList,
         statsList,
