@@ -1,0 +1,100 @@
+{
+  "servicesList": [
+    {
+      "name": "Aula virtual",
+      "description": "Nuestros servicios de desarrollo de software están diseñados para impulsar la innovación y el crecimiento de tu empresa en el mundo digital. Desde el diseño de aplicaciones personalizadas hasta la implementación de soluciones empresariales, nuestro equipo experto te acompaña en cada etapa del proceso, asegurando productos de calidad que satisfacen tus necesidades y objetivos comerciales.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/develop.png",
+      "imageAlt": "Aula virtual"
+    },
+    {
+      "name": "Videoclases",
+      "description": "Ofrecemos una amplia gama de servicios de tecnología de la información diseñados para optimizar y mejorar la eficiencia de tu empresa. Desde soporte técnico hasta soluciones de infraestructura, estamos aquí para cubrir todas tus necesidades tecnológicas.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/servicios-ti.jpg",
+      "imageAlt": "Texto de imagen de Servicios de TI"
+    },
+    {
+      "name": "Videoteca",
+      "description": "Nuestros expertos en ciberseguridad trabajan incansablemente para proteger tus datos y sistemas contra amenazas digitales. Con soluciones avanzadas y un enfoque proactivo, garantizamos la integridad y confidencialidad de tu información.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/cyber.jpg",
+      "imageAlt": "Texto de imagen de Ciberseguridad"
+    },
+    {
+      "name": "Simulacros",
+      "description": "Aprovecha al máximo el poder y la flexibilidad de la nube con nuestras soluciones de computación en la nube. Desde la migración de datos hasta la gestión de plataformas, te ayudamos a impulsar la innovación y la escalabilidad de tu negocio.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/cloud.png",
+      "imageAlt": "Texto de imagen de Cloud Computing"
+    },
+    {
+      "name": "Metodología",
+      "description": "Nuestros servicios de cableado de red garantizan una infraestructura de comunicaciones sólida y confiable para tu empresa. Desde la planificación y diseño hasta la implementación y mantenimiento, nos aseguramos de que tu red esté optimizada para satisfacer las demandas de tu negocio, ofreciendo conexiones seguras y velocidades de transferencia de datos eficientes.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/cableado.jpg",
+      "imageAlt": "Texto de imagen de Soluciones de cableado de red"
+    },
+    {
+      "name": "Manuales",
+      "description": "Diseñamos y gestionamos infraestructuras tecnológicas sólidas y confiables que impulsan el crecimiento y la competitividad de tu empresa. Desde redes hasta servidores, nos encargamos de todos los aspectos para garantizar un rendimiento óptimo y una disponibilidad constante.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/develop.png",
+      "imageAlt": "Texto de imagen de Infraestructura"
+    },
+    {
+      "name": "IA",
+      "description": "Diseñamos y gestionamos infraestructuras tecnológicas sólidas y confiables que impulsan el crecimiento y la competitividad de tu empresa. Desde redes hasta servidores, nos encargamos de todos los aspectos para garantizar un rendimiento óptimo y una disponibilidad constante.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/develop.png",
+      "imageAlt": "Texto de imagen de Infraestructura"
+    },
+    {
+      "name": "Descuentos",
+      "description": "Diseñamos y gestionamos infraestructuras tecnológicas sólidas y confiables que impulsan el crecimiento y la competitividad de tu empresa. Desde redes hasta servidores, nos encargamos de todos los aspectos para garantizar un rendimiento óptimo y una disponibilidad constante.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/develop.png",
+      "imageAlt": "Texto de imagen de Infraestructura"
+    },
+    {
+      "name": "Mentoring",
+      "description": "Nuestros servicios de cableado de red garantizan una infraestructura de comunicaciones sólida y confiable para tu empresa. Desde la planificación y diseño hasta la implementación y mantenimiento, nos aseguramos de que tu red esté optimizada para satisfacer las demandas de tu negocio, ofreciendo conexiones seguras y velocidades de transferencia de datos eficientes.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/cableado.jpg",
+      "imageAlt": "Texto de imagen de Soluciones de cableado de red"
+    },
+    {
+      "name": "Aplicación Móvil",
+      "description": "Diseñamos y gestionamos infraestructuras tecnológicas sólidas y confiables que impulsan el crecimiento y la competitividad de tu empresa. Desde redes hasta servidores, nos encargamos de todos los aspectos para garantizar un rendimiento óptimo y una disponibilidad constante.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/develop.png",
+      "imageAlt": "Texto de imagen de Infraestructura"
+    },
+    {
+      "name": "Promociones",
+      "description": "Diseñamos y gestionamos infraestructuras tecnológicas sólidas y confiables que impulsan el crecimiento y la competitividad de tu empresa. Desde redes hasta servidores, nos encargamos de todos los aspectos para garantizar un rendimiento óptimo y una disponibilidad constante.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/develop.png",
+      "imageAlt": "Texto de imagen de Infraestructura"
+    },
+    {
+      "name": "Banqueo",
+      "description": "Diseñamos y gestionamos infraestructuras tecnológicas sólidas y confiables que impulsan el crecimiento y la competitividad de tu empresa. Desde redes hasta servidores, nos encargamos de todos los aspectos para garantizar un rendimiento óptimo y una disponibilidad constante.",
+      "to": "/contacto",
+      "icon": "UserGroupIcon",
+      "imagePath": "/services/develop.png",
+      "imageAlt": "Texto de imagen de Infraestructura"
+    }
+  ]
+}

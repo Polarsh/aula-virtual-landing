@@ -1,0 +1,34 @@
+{
+  "partnershipsList": [
+    {
+      "name": "Convenio 1",
+      "description": "description",
+      "imagePath": "https://i.stack.imgur.com/5ykYD.png",
+      "imageAlt": "Convenio 1"
+    },
+    {
+      "name": "Convenio 2",
+      "description": "description",
+      "imagePath": "https://i.stack.imgur.com/5ykYD.png",
+      "imageAlt": "Convenio 2"
+    },
+    {
+      "name": "Convenio 3",
+      "description": "description",
+      "imagePath": "https://i.stack.imgur.com/5ykYD.png",
+      "imageAlt": "Convenio 3"
+    },
+    {
+      "name": "Convenio 4",
+      "description": "description",
+      "imagePath": "https://i.stack.imgur.com/5ykYD.png",
+      "imageAlt": "Convenio 4"
+    },
+    {
+      "name": "Convenio 5",
+      "description": "description",
+      "imagePath": "https://i.stack.imgur.com/5ykYD.png",
+      "imageAlt": "Convenio 5"
+    }
+  ]
+}
