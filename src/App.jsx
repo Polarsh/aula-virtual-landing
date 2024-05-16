@@ -12,7 +12,6 @@ import CourseDetailPage from './pages/courses/ENAM'
 import PrivacyPolicyPage from './pages/others/PrivacyPolicy'
 import QualityPolicyPage from './pages/others/QualityPolicy'
 import FaqsPage from './pages/others/Faqs'
-import ComplaintsBookPage from './pages/others/ComplaintsBook'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -42,10 +41,6 @@ export default function App() {
           />
           <Route path='politicas-de-calidad' element={<QualityPolicyPage />} />
           <Route path='preguntas-frecuentes' element={<FaqsPage />} />
-          <Route
-            path='libro-de-reclamaciones'
-            element={<ComplaintsBookPage />}
-          />
 
           {/* Cursos */}
           <Route path='cursos/'>
