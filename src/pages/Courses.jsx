@@ -41,11 +41,9 @@ export default function CoursesPage() {
                   />
                 </div>
                 <div className='flex flex-1 flex-col space-y-2 p-4'>
-                  <h3 className='text-base font-bold text-gray-900'>
-                    <a href={course.href} className=' text-my-primary'>
-                      <span aria-hidden='true' className='absolute inset-0' />
-                      {course.name}
-                    </a>
+                  <h3 className='text-base font-bold text-my-primary'>
+                    <span aria-hidden='true' className='absolute inset-0' />
+                    {course.name}
                   </h3>
                   <p className='text-sm text-gray-500'>{course.description}</p>
                 </div>

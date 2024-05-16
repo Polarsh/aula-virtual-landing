@@ -1,4 +1,5 @@
 import CoursesSliderComponent from '../components/CoursesSlider'
+import renderIcon from '../components/RenderIcon'
 import { useApp } from '../context/AppContext'
 
 export default function HomePage() {
@@ -107,10 +108,8 @@ export default function HomePage() {
               <div key={feature.name} className='flex flex-col items-center'>
                 <dt className='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
                   <div className='bg-gray-100 p-2 rounded-lg text-center'>
-                    <feature.icon
-                      className=' h-48 w-48 flex-none text-my-primary'
-                      aria-hidden='true'
-                    />
+                    {renderIcon(feature.icon)}
+
                     {feature.name}
                   </div>
                 </dt>
