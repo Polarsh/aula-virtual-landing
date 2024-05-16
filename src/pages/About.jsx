@@ -1,42 +1,10 @@
 import BackgroundComponent from '../components/Background'
 import LogoComponent from '../components/Logo'
+import renderIcon from '../components/RenderIcon'
 import { useApp } from '../context/AppContext'
 
-const values = [
-  {
-    name: 'Compromiso con la excelencia educativa',
-    description:
-      'Nos comprometemos a ofrecer soluciones educativas de primer nivel en el campo de la salud. Nuestra búsqueda constante de la excelencia nos permite proporcionarte herramientas y recursos de aprendizaje de alta calidad para tu desarrollo profesional.',
-  },
-  {
-    name: 'Transparencia y ética académica',
-    description:
-      'Valoramos la transparencia en todas nuestras interacciones académicas. Nos comprometemos a ser honestos y claros en nuestras comunicaciones, proporcionándote la información que necesitas para tener éxito en tu educación en el área de la salud.',
-  },
-  {
-    name: 'Protección de la privacidad del estudiante',
-    description:
-      'Nos tomamos muy en serio la privacidad de tus datos educativos. Nuestro compromiso es mantener la confidencialidad y la seguridad de la información que nos confías, cumpliendo con los más altos estándares de protección de datos y cumplimiento normativo.',
-  },
-  {
-    name: 'Innovación en la educación continua',
-    description:
-      'Nos esforzamos por estar a la vanguardia de la tecnología y las mejores prácticas educativas en el área de la salud. Nos comprometemos a buscar constantemente nuevas soluciones y técnicas para mejorar tu experiencia de aprendizaje y mantenerte actualizado en tu campo.',
-  },
-  {
-    name: 'Soporte personalizado al estudiante',
-    description:
-      'Nuestro equipo está aquí para apoyarte en tu viaje educativo. Nos comprometemos a brindarte un soporte excepcional, respondiendo rápidamente a tus necesidades y ofreciéndote el apoyo necesario para que alcances tus metas académicas en el área de la salud.',
-  },
-  {
-    name: 'Enfoque centrado en el estudiante',
-    description:
-      'Nos dedicamos a comprender tus necesidades educativas y proporcionarte soluciones personalizadas. Nuestro enfoque centrado en el estudiante nos permite adaptar nuestros servicios para satisfacer tus requisitos específicos y garantizar tu éxito en tu carrera profesional en el área de la salud.',
-  },
-]
-
 export default function AboutPage() {
-  const { objetivesList } = useApp()
+  const { valuesList, objetivesList } = useApp()
 
   return (
     <div>
@@ -137,10 +105,7 @@ export default function AboutPage() {
                 <div key={feature.name} className='flex flex-col items-center'>
                   <dt className='flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900'>
                     <div className='p-2 rounded-lg text-center text-white'>
-                      <feature.icon
-                        className=' h-48 w-48 flex-none text-my-primary'
-                        aria-hidden='true'
-                      />
+                      {renderIcon(feature.icon)}
                       {feature.name}
                     </div>
                   </dt>
@@ -168,7 +133,7 @@ export default function AboutPage() {
             </p>
           </div>
           <dl className='mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3'>
-            {values.map(value => (
+            {valuesList.map(value => (
               <div key={value.name}>
                 <dt className='font-semibold text-gray-900'>{value.name}</dt>
                 <dd className='mt-1 text-gray-600 text-justify'>
