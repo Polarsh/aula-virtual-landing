@@ -132,7 +132,7 @@ export default function HomePage() {
         <div className='mx-auto mt-8 max-w-2xl lg:max-w-none'>
           <dl className='mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4'>
             {statsList.map(stat => (
-              <div key={stat.id} className='flex flex-col p-8'>
+              <div key={stat.name} className='flex flex-col p-8'>
                 <dt className='text-sm font-semibold leading-6 text-gray-600'>
                   {stat.name}
                 </dt>
@@ -159,7 +159,7 @@ export default function HomePage() {
           <div className='-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3'>
             {testimonialsList.map(testimonial => (
               <div
-                key={testimonial.author.handle}
+                key={testimonial.author.name}
                 className='pt-8 sm:inline-block sm:w-full sm:px-4'>
                 <figure className='rounded-2xl bg-gray-50 p-8 text-sm leading-6'>
                   <blockquote className='text-gray-900'>
@@ -175,7 +175,7 @@ export default function HomePage() {
                       <div className='font-semibold text-gray-900'>
                         {testimonial.author.name}
                       </div>
-                      <div className='text-gray-600'>{`@${testimonial.author.handle}`}</div>
+                      <div className='text-gray-600'>{testimonial.course}</div>
                     </div>
                   </figcaption>
                 </figure>
