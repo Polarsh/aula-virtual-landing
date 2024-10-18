@@ -35,7 +35,7 @@ export default function CoursesPage() {
                 className='group relative flex flex-col overflow-hidden rounded-lg border border-gray-200 bg-white'>
                 <div className=' bg-gray-200 sm:aspect-none group-hover:opacity-75 sm:h-56'>
                   <img
-                    src={course.imagePath}
+                    src={'course.webp'}
                     alt={course.imageAlt}
                     className='h-full w-full object-cover object-center sm:h-full sm:w-full'
                   />

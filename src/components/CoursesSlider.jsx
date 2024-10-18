@@ -22,8 +22,8 @@ export default function CoursesSliderComponent() {
         {coursesList.map(course => (
           <div key={course.name} className='pb-8 px-5'>
             <div className='text-base font-semibold leading-7 text-gray-900'>
-              <div className='bg-gray-100 p-2 rounded-lg text-center flex flex-col items-center'>
-                <ImageComponent src={course.imagePath} alt={course.imageAlt} />
+              <div className='bg-white p-2 rounded-lg text-center flex flex-col items-center'>
+                <ImageComponent src={'course.webp'} alt={course.imageAlt} />
                 <span>{course.name}</span>
               </div>
             </div>
