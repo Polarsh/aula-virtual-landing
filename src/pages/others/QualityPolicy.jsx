@@ -17,7 +17,7 @@ export default function QualityPolicyPage() {
         <div className='mt-16 sm:mt-10'>
           <div className='mx-auto lg:mx-0'>
             <p className='mt-6 text-lg leading-8 text-gray-600 text-justify'>
-              En Renuevate, estamos comprometidos con la excelencia en la
+              En Aula Virtual, estamos comprometidos con la excelencia en la
               entrega de productos/servicios de alta calidad que satisfagan y
               superen las expectativas de nuestros clientes. Nuestro objetivo es
               ser reconocidos como líderes en nuestro sector, ofreciendo

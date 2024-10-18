@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
         <div className='mt-16 sm:mt-10'>
           <div className='mx-auto lg:mx-0'>
             <p className='mt-6 text-lg leading-8 text-gray-600 text-justify'>
-              En Renuevate, valoramos y respetamos tu privacidad. Esta Política
+              En Aula Virtual, valoramos y respetamos tu privacidad. Esta Política
               de Privacidad explica cómo recopilamos, usamos y protegemos la
               información personal que nos proporcionas cuando utilizas nuestros
               servicios. Esta compañía está comprometida con la seguridad de los
