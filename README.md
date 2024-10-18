@@ -46,7 +46,7 @@ Sigue estos pasos para ejecutar la landing page localmente:
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/aula-virtual-landing.git
+git clone https://github.com/Polarsh/aula-virtual-landing.git
 ```
 
 2. Navega al directorio del proyecto:
