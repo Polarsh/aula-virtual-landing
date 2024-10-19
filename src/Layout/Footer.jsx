@@ -65,7 +65,7 @@ export default function FooterComponent() {
           {/* Logo y Social */}
           <div className='space-y-8 col-span-3 sm:col-span-1'>
             {/* Logo */}
-            <img className='h-24' src='vite.svg' alt='Company name' />
+            <img className='h-24' src='logo.svg' alt='Company name' />
             {/* Social */}
             <div className='flex space-x-6 pt-8'>
               {footerNavigation.social.map(item => (

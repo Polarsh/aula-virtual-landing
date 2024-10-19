@@ -32,7 +32,7 @@ export default function NavBarComponent() {
               <span className='sr-only'>MultiServices Silver Peru</span>
               <img
                 className=' h-14 w-auto'
-                src='/vite.svg'
+                src='/logo.svg'
                 alt='Logo MultiServices Silver Peru'
               />
             </Link>
@@ -82,7 +82,7 @@ export default function NavBarComponent() {
                 <span className='sr-only'>AV</span>
                 <img
                   className=' h-14 w-auto'
-                  src='/vite.svg'
+                  src='/logo.svg'
                   alt='Logo MultiServices Silver Peru'
                 />
               </Link>

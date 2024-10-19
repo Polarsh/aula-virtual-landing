@@ -20,8 +20,8 @@ export default function RecognitionPage() {
             <p className='mt-6 text-lg leading-8 text-gray-600'>
               Descubre los logros y reconocimientos que respaldan nuestra
               excelencia académica y compromiso con la calidad educativa. En
-              [nombre de tu institución], nos enorgullece ser reconocidos por
-              nuestra contribución al campo de la educación médica y el éxito de
+              Aula virtual, nos enorgullece ser reconocidos por nuestra
+              contribución al campo de la educación médica y el éxito de
               nuestros estudiantes y profesionales de la salud.
             </p>
           </div>
